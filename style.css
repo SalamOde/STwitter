@@ -1,0 +1,267 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: navy;
+}
+
+h2 {
+  color: red;
+}
+
+h3 {
+  color: green;
+  font-size: 10px;
+}
+
+p {
+  color: red;
+  font-size: 16px;
+}
+
+.error {
+  font-size: 10px;
+  color: red;
+}
+
+.larger {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.darker {
+  color: black;
+}
+
+.title {
+  font-size: large;
+  color: blueviolet;
+}
+
+#about-error-message {
+  color: gray;
+}
+
+.test {
+  font-weight: 100;
+  text-align: right;
+}
+
+.red-box {
+  color: #333333;
+  background-color: #ffff00;
+  border-style: double;
+  padding: 16px;
+}
+
+#netflix-logo {
+  color: red;
+  padding: 16px 24px 16px 24px;
+  font-size: 64px;
+  background-color: black;
+  text-align: center;
+  border-radius: 100%;
+}
+
+#facebook-logo {
+  color: blue;
+  padding: 16px 24px 16px 24px;
+  font-size: 64px;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+#Tweet-logo {
+  color: rgb(255, 255, 255);
+  border: none;
+
+  padding: 16px 32px 16px 32px;
+  font-size: 16px;
+  background-color: rgb(89, 116, 211);
+  text-align: center;
+  border-radius: 50px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo:hover {
+  background-color: rgb(46, 46, 251);
+  border-radius: 50px;
+}
+
+.list-of-logo {
+  display: flex;
+}
+
+.horizontal-boxes {
+  border: 1px solid color(rgb(62, 13, 13) green blue);
+}
+
+.container {
+  gap: 30px;
+  display: flex;
+  width: 800px;
+}
+
+.left-part {
+  justify-content: center;
+  width: 30%;
+}
+
+.right-part {
+  width: 70%;
+}
+
+.tweet-header {
+  display: flex;
+  gap: 20px;
+}
+
+#clown-fish {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+
+#clown-fish-2 {
+  width: 300px;
+}
+
+.twitter-icon {
+  width: 50px;
+  height: 50px;
+  fill: rgb(75, 75, 203);
+}
+
+.nav-button {
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  line-height: 2;
+}
+
+#homecolor {
+  color: rgb(75, 75, 203);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-button:hover {
+  text-decoration: underline;
+}
+
+#user_1_profile {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+
+.spaced {
+  margin-bottom: 20px;
+  color: rgb(108, 108, 220);
+  position: relative;
+  font-weight: bold;
+}
+
+#user_1_profile2 {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+
+.input-search {
+  flex: 1;
+  border-radius: 50px;
+  text-align: left;
+  padding: 16px 16px 16px 16px;
+  background-color: #e0e0e0;
+  color: #ffffff;
+  border: none;
+}
+/* .input-search:hover {
+  background-color: #333333;
+} */
+
+.input-search:focus {
+  background-color: #ffffff;
+  color: black;
+  outline: none;
+}
+
+.image-tweet {
+  width: 50px;
+  height: 50px;
+  fill: rgb(75, 75, 203);
+}
+
+.Photo-gird {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Photo-gird2 {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  color: #d1c5c5;
+  margin-left: 5px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  color: #d1c5c5;
+  margin-left: 5px;
+}
+
+.indukphotogird {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.logotweet {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 25%;
+  gap: 5px;
+  color: gray;
+  fill: gray;
+}
+
+.yowaimo {
+  display: flex;
+}
+
+.attach {
+  border-radius: 30px;
+  margin-top: 10px;
+  width: 500px;
+  height: auto;
+  margin-bottom: 10px;
+}
